@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pberger.word.counter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.pberger.word.counter.Main_Menu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pberger.word.counter.Top_5_List"
+            android:label="@string/top_5_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pberger.word.counter.About"
+            android:label="@string/about"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pberger.word.counter.Ignore_List"
+            android:label="@string/ignore_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pberger.word.counter.Word_Search"
+            android:label="@string/word_search"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pberger.word.counter.Generate_Top_5"
+            android:label="@string/thread_selector"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

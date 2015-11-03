@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="386dp"
+        android:layout_weight="0.44"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/addIgnore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Add Word"
+        android:textColor="@color/white" />
+
+</LinearLayout><!-- From: file:/C:/Users/Restart/AndroidStudioProjects/Word%20Counter/app/src/main/res/layout/activity_ignore_list.xml -->
