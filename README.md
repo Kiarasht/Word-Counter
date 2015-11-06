@@ -1,6 +1,8 @@
 # Word-Counter
 Find the amount of times a word has been sent through your phones messaging system.
 
+# The MIT License (MIT)
+
 Copyright (c) 2015 Parker Berger
 
 
